@@ -1,5 +1,13 @@
 Edadmaxniño = 18
 Edadminniño = 6
+Nombre= input("Ingrese su nombre")
+if Nombre= "Yerson Gonzalez":
+    print("Usted no esta admitido en el programa debido a problemas con el creador del codigo");
+    return Nombre;
+elif Nombre.isnumeric():
+    raise ValueError("¡Error! No se permiten números, debes ingresar su nombre.");
+print(f"Entrada válida: {Nombre}")
+
 Edad = int(input("Ingrese su edad"))
 
 if Edad < 0: 
