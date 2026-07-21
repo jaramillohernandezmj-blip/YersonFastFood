@@ -20,3 +20,5 @@ else:
 print ("Usuario admitido como adulto")
 if edad>60:
     print("Usuario de tercera edad")
+if edad = 0:
+print("explotando en 3, 2, 1...")
