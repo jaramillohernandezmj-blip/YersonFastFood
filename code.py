@@ -1,6 +1,12 @@
-Edadmaxniño=18
-Edadminniño=6
-Usuario=0
-Edad= input(int("Ingrese su edad"))
-if Edad >= Edadminniño and Edad <= Edadmaxniño:
-    print("Usuario admitido como menor de edad");
+Edadmaxniño = 18
+Edadminniño = 6
+Edad = int(input("Ingrese su edad"))
+
+if Edad < 0: 
+    print("Ingrese un numero positivo (Ejm: 0, 1 , 2 , 3...)");
+elif edad < Edadminniño:
+    print("Usuario demasiado joven (Requiere Acompañamiento)");
+elif Edadminniño <= Edad <= Edadmaxniño
+    print("Usuario admitido como menor de edad.")
+else:
+print ("Usuario admitido como adulto")
