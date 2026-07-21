@@ -10,3 +10,6 @@ elif Edadminniño <= Edad <= Edadmaxniño
     print("Usuario admitido como menor de edad.")
 else:
 print ("Usuario admitido como adulto")
+
+except ValueError:
+    print("ERROR: Debe ingresar un número entero válido.")
