@@ -10,3 +10,5 @@ elif Edadminniño <= Edad <= Edadmaxniño
     print("Usuario admitido como menor de edad.")
 else:
 print ("Usuario admitido como adulto")
+if edad>60:
+    print("Usuario de tercera edad")
